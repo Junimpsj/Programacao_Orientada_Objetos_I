@@ -3,28 +3,28 @@ import java.util.Scanner;
 
 public class CambioMoeda {
     
-    public static double obterValor(Scanner entrada) {
+    static double obterValor(Scanner entrada) {
 
         System.out.print("Insira o valor $$ que será convertido - R$");
         return entrada.nextDouble();
 
     }
 
-    public static double obterTaxaCambio(Scanner entrada) {
+    static double obterTaxaCambio(Scanner entrada) {
 
         System.out.print("Insira a taxa de câmbio para o cálculo - R$");
         return entrada.nextDouble();
 
     }
 
-    public static double converter(double valor, double taxa) {
+    static double converter(double valor, double taxa) {
 
         //o cálculo de conversão deve ser feito multiplicando o valor pela taxa de câmbio
         return valor * taxa;
 
     }
 
-    public static void mostrarResultado(double valor, double taxa, double resultado) {
+    static void mostrarResultado(double valor, double taxa, double resultado) {
 
         //aprendi aqui que temos o system.out.printf(); que tem a sintaxe igual o print que utilizamos em C
         //utilizei ele aqui pois ele tem a possiblidade de controlar a exibição de pontos flutuante com %.2f

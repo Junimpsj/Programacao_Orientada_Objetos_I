@@ -2,7 +2,7 @@ package atividadesAulas.aula03.atividade02;
 
 public class SalarioBonus {
 
-    public static double calcularBonus(double salario, double bonus) {
+    static double calcularBonus(double salario, double bonus) {
         return salario + (salario * bonus);
     }
 

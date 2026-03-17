@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Tabuada {
     
-    public static void calcularTabuada (int numero) {
+    static void calcularTabuada (int numero) {
 
         for(int i = 1 ; i <= 12 ; i++) {
             if (i == 12) { System.out.println(i + " x " + numero + " = " + (i * numero) + "\n"); continue;}

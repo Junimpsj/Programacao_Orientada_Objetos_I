@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Imposto {
     
-    public static double precoFinal(double preco, double taxa) {
+    static double precoFinal(double preco, double taxa) {
         return preco * (1 + taxa / 100);
     }
 

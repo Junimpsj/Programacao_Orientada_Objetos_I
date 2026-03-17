@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Equipes {
 
-    public static int dividirEquipes(int numEstudantes, int tamEquipes) {
+    static int dividirEquipes(int numEstudantes, int tamEquipes) {
         return numEstudantes / tamEquipes;
     }
 
-    public static int calcularResto(int numEstudantes, int tamEquipes) {
+    static int calcularResto(int numEstudantes, int tamEquipes) {
         return numEstudantes % tamEquipes;
     }
 

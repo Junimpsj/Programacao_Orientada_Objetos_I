@@ -2,7 +2,7 @@ package atividadesAulas.aula03.atividade01;
 
 public class Desconto {
 
-    public static double aplicarDesconto(double preco, double desconto) {
+    static double aplicarDesconto(double preco, double desconto) {
         return preco - (preco * desconto);
     }
 

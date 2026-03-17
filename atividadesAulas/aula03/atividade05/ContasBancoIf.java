@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ContasBancoIf {
     
-    public static void calcularJuros(double valor, char tipoConta) {
+    static void calcularJuros(double valor, char tipoConta) {
 
         double tipoA = 0.015;
         double tipoB = 0.02;
